@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0000
-Empty project with no packages
+# RowanSample9V3 - spec_0005
+Two classes, two  packages, plus tests. Primer for Issue 230
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0005',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0005',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,17 +20,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Two classes, two  packages, plus tests. Primer for Issue 230'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
-	#comment : '',
-	#rowanIssues : [ ],
+	#name : 'index_0005',
+	#title : 'Two classes, two  packages, plus tests. Primer for Issue 230',
+	#specName : 'spec_0005',
+	#index : 5,
+	#derivedFrom : 'spec_0000',
+	#comment : 'One class per package: RowanSample9-Core1, RowanSample9-Core2 and RowanSample9-Tests packages. Tests ensure that classes in Core1 are in #\'RowanSample9_2\' and classes in Core2 are in symbol dictionary #\'RowanSample9_3\' and classes in Tests are in symbol dictionary #\'RowanSample9_1\'',
+	#rowanIssues : [
+		504
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
 }

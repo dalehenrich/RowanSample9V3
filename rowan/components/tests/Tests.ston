@@ -3,6 +3,8 @@ RwSubcomponent {
 	#condition : 'tests',
 	#projectNames : [ ],
 	#componentNames : [ ],
-	#packageNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Tests'
+	],
 	#comment : 'Primary component used for loading the test classes.'
 }
