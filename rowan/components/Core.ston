@@ -8,7 +8,7 @@ RwLoadComponent {
 		'RowanSample9V3-Core',
 		'RowanSample9V3-Extensions',
 		'RowanSample9V3-GemStone',
-		'RowanSample9V3-NewPackage'
+		'RowanSample9V3-RenamedPackage'
 	],
 	#comment : 'Primary component used for loading the core classes.'
 }
