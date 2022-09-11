@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/Examples',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'common/examples/Examples'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}

@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/examples/Examples',
+	#condition : 'examples',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Examples'
+	],
+	#comment : ''
+}

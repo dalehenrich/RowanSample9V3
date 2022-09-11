@@ -1,0 +1,11 @@
+RwSubcomponent {
+	#name : 'common/platforms/Loader',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'common/platforms/gemstone/Loader',
+		'common/platforms/pharo/Loader'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}
