@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0000
-Empty project with no packages
+# RowanSample9V3 - spec_0001
+Bare bones package structure -Core and -Tests
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0001',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0001',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,17 +20,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Bare bones package structure -Core and -Tests'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
-	#comment : '',
-	#rowanIssues : [ ],
+	#name : 'index_0001',
+	#title : 'Bare bones package structure -Core and -Tests',
+	#specName : 'spec_0001',
+	#index : 1,
+	#derivedFrom : 'spec_0000',
+	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#rowanIssues : [
+		527
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
 }
