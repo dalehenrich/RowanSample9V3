@@ -1,8 +1,8 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0011',
+	#specName : 'spec_0023',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0011',
+	#revision : 'spec_0023',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -17,5 +17,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.'
+	#comment : 'Start with spec_0011, add a sequence of packages each subclassing off of the the other to be loaded in order. The Core component is a sequenced component.'
 }

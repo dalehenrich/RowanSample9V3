@@ -1,0 +1,11 @@
+RwLoadComponent {
+	#name : 'Core1',
+	#postloadDoitName : 'doits/postloadDoit_Core1',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core',
+		'RowanSample9V3-Tests'
+	],
+	#comment : 'First component for loading first package'
+}

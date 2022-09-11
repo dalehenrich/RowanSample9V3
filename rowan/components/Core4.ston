@@ -1,0 +1,12 @@
+RwLoadComponent {
+	#name : 'Core4',
+	#preloadDoitName : 'doits/preloadDoit_Core4',
+	#postloadDoitName : 'doits/postloadDoit_Core4',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core4',
+		'RowanSample9V3-Tests4'
+	],
+	#comment : 'Fourth component for loading fourth package'
+}

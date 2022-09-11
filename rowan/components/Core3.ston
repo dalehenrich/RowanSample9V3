@@ -1,0 +1,12 @@
+RwLoadComponent {
+	#name : 'Core3',
+	#preloadDoitName : 'doits/preloadDoit_Core3',
+	#postloadDoitName : 'doits/postloadDoit_Core3',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core3',
+		'RowanSample9V3-Tests3'
+	],
+	#comment : 'Third component for loading third package'
+}

@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0011
-A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.
+# RowanSample9V3 - spec_0023
+Start with spec_0011, add a sequence of packages each subclassing off of the the other to be loaded in order. The Core component is a sequenced component.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0011',
+	#specName : 'spec_0023',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0011',
+	#revision : 'spec_0023',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.'
+	#comment : 'Start with spec_0011, add a sequence of packages each subclassing off of the the other to be loaded in order. The Core component is a sequenced component.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0011',
-	#title : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.',
-	#specName : 'spec_0011',
-	#index : 11,
-	#derivedFrom : 'spec_0001',
-	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in default symbol dictionary.',
+	#name : 'index_0023',
+	#title : 'Start with spec_0011, add a sequence of packages each subclassing off of the the other to be loaded in order. The Core component is a sequenced component.',
+	#specName : 'spec_0023',
+	#index : 23,
+	#derivedFrom : 'spec_0011',
+	#comment : '',
 	#rowanIssues : [
-		495
+		568
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
