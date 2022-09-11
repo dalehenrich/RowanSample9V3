@@ -1,0 +1,9 @@
+RwLoadComponent {
+	#name : 'Core',
+	#projectNames : [ ],
+	#componentNames : [
+		'tests/Tests'
+	],
+	#packageNames : [ ],
+	#comment : 'Primary component used for loading the core classes.'
+}
