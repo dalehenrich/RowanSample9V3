@@ -1,18 +1,11 @@
-# RowanSample9V3 - spec_0015
-Starting with spec_0014, remove the old (now empty) package from the project as triggering a package move
-	as opposed to a class move seems to trigger the bug, which implies that move package is not quite right. 
-
-	It seems that assigning a new symbol dictionary to the OLD package ... the package that the class is moved FROM
-	may trigger a bogus package move.
-
-	The test RwRowanProjectIssuesTestV2 >> testIssue495_move_class_and_extension_method_to_new_symbol_dict
-	showed that #493 wasn't fixed by the V2 implementation.
+# RowanSample9V3 - spec_0017
+Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0015',
+	#specName : 'spec_0017',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0015',
+	#revision : 'spec_0017',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -27,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Starting with spec_0014, remove the old (now empty) package from the project as triggering a package move\n\tas opposed to a class move seems to trigger the bug, which implies that move package is not quite right. \n\n\tIt seems that assigning a new symbol dictionary to the OLD package ... the package that the class is moved FROM\n\tmay trigger a bogus package move.\n\n\tThe test RwRowanProjectIssuesTestV2 >> testIssue495_move_class_and_extension_method_to_new_symbol_dict\n\tshowed that #493 wasn\'t fixed by the V2 implementation.'
+	#comment : 'Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0015',
-	#title : 'Starting with spec_0014, remove the old (now empty) package from the project as triggering a package move\n\tas opposed to a class move seems to trigger the bug, which implies that move package is not quite right. \n\n\tIt seems that assigning a new symbol dictionary to the OLD package ... the package that the class is moved FROM\n\tmay trigger a bogus package move.\n\n\tThe test RwRowanProjectIssuesTestV2 >> testIssue495_move_class_and_extension_method_to_new_symbol_dict\n\tshowed that #493 wasn\'t fixed by the V2 implementation.',
-	#specName : 'spec_0015',
-	#index : 15,
-	#derivedFrom : 'spec_0014',
-	#comment : 'RowanSample9-Core and RowanSample9-Extensions1 in same symbol dictionary, but extension method moves\n\t\tto RowanSample9-Extensions1. RowanSample9-Tests package in default symbol dictionary. Move the old (empty) package\n\t\tto a different symbol dictionary.',
+	#name : 'index_0017',
+	#title : 'Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions',
+	#specName : 'spec_0017',
+	#index : 17,
+	#derivedFrom : 'spec_0015',
+	#comment : '',
 	#rowanIssues : [
-		495
+		557
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
