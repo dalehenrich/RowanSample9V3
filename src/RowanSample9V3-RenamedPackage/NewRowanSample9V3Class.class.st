@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'ivar1'
 	],
-	#category : 'RowanSample9V3-NewPackage'
+	#category : 'RowanSample9V3-RenamedPackage'
 }
 
 { #category : 'instance creation' }
