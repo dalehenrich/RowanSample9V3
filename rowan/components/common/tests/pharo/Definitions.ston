@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/tests/pharo/Definitions',
+	#condition : 'pharo',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Definitions-Pharo-Tests'
+	],
+	#comment : ''
+}

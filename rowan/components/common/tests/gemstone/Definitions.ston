@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/tests/gemstone/Definitions',
+	#condition : 'gemstone',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Definitions-GemStone-Tests'
+	],
+	#comment : ''
+}

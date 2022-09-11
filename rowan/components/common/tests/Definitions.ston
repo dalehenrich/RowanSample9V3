@@ -1,0 +1,11 @@
+RwSubcomponent {
+	#name : 'common/tests/Definitions',
+	#condition : 'tests',
+	#projectNames : [ ],
+	#componentNames : [
+		'common/tests/gemstone/Definitions',
+		'common/tests/pharo/Definitions'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}

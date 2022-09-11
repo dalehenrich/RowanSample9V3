@@ -2,7 +2,11 @@ RwSubcomponent {
 	#name : 'common/Definitions',
 	#condition : 'common',
 	#projectNames : [ ],
-	#componentNames : [ ],
+	#componentNames : [
+		'common/gemstone/Definitions',
+		'common/pharo/Definitions',
+		'common/tests/Definitions'
+	],
 	#packageNames : [
 		'RowanSample9V3-Definitions'
 	],
