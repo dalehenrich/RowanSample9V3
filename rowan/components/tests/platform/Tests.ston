@@ -1,12 +1,10 @@
 RwSubcomponent {
-	#name : 'tests/Tests',
-	#condition : 'tests',
+	#name : 'tests/platform/Tests',
+	#condition : 'common',
 	#projectNames : [ ],
 	#componentNames : [
-		'tests/platform/Tests'
+		'tests/platform/vast/Tests'
 	],
-	#packageNames : [
-		'RowanSample9V3-Tests'
-	],
+	#packageNames : [ ],
 	#comment : 'Component for loading vast-specific test packages and components. \n\t\tThe component named VAST_IMAGE/SUnit is a pseudo-component that refers to \n\t\tapplications expected to reside in the VAST image'
 }

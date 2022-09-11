@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'platform/pharo/Core',
+	#condition : [
+		'pharo'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Export-Pharo'
+	],
+	#comment : 'Component for loading pharo-specific packages'
+}

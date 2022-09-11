@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'platform/gemstone/Core',
+	#condition : [
+		'gemstone'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Export-GemStone'
+	],
+	#comment : 'Component for loading gemstone-specific packages'
+}

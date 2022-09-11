@@ -1,0 +1,12 @@
+RwSubcomponent {
+	#name : 'platform/Core',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'platform/gemstone/Core',
+		'platform/pharo/Core',
+		'platform/vast/Core'
+	],
+	#packageNames : [ ],
+	#comment : 'Component for loading gemstone-specific packages'
+}
