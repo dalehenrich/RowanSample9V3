@@ -1,15 +1,15 @@
 # RowanSample9V3 - spec_0004
-Create inconsistency in component definitions ... duplicate package error expected on load
+Reconcile inconsistencies for storage of package-specific properties
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0004_b',
+	#specName : 'spec_0004',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
 	#revision : 'spec_0004',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
-		'Core3',
-		'Core3'
+		'Core1',
+		'Core2'
 	],
 	#customConditionalAttributes : [
 		'tests'
@@ -21,18 +21,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Create inconsistency in component definitions ... duplicate package error expected on load'
+	#comment : 'Reconcile inconsistencies for storage of package-specific properties'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0004_b',
-	#title : 'Create inconsistency in component definitions ... duplicate package error expected on load',
-	#specName : 'spec_0004_b',
+	#name : 'index_0004',
+	#title : 'Reconcile inconsistencies for storage of package-specific properties',
+	#specName : 'spec_0004',
 	#index : 4,
 	#derivedFrom : 'master',
 	#comment : '',
 	#rowanIssues : [
-		532
+		500,
+		531
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
