@@ -1,5 +1,7 @@
 RwLoadComponent {
 	#name : 'Core',
+	#preloadDoitName : 'doits/preloadDoit',
+	#postloadDoitName : 'doits/postloadDoit',
 	#projectNames : [ ],
 	#componentNames : [
 		'tests/Tests'

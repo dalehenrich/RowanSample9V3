@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0011
-A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.
+# RowanSample9V3 - spec_0021
+Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0011',
+	#specName : 'spec_0021',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0011',
+	#revision : 'spec_0021',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.'
+	#comment : 'Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0011',
-	#title : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.',
-	#specName : 'spec_0011',
-	#index : 11,
-	#derivedFrom : 'spec_0001',
-	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in default symbol dictionary.',
+	#name : 'index_0021',
+	#title : 'Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.',
+	#specName : 'spec_0021',
+	#index : 21,
+	#derivedFrom : 'spec_0011',
+	#comment : '',
 	#rowanIssues : [
-		495
+		568
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
