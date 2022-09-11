@@ -4,8 +4,8 @@ RwSubcomponent {
 	#projectNames : [ ],
 	#componentNames : [ ],
 	#packageNames : [
-		'RowanSample9V3-GemStone-Tests',
-		'RowanSample9V3-Tests'
+		'RowanSample9V3-GemStone-Tests_295',
+		'RowanSample9V3-Tests_295'
 	],
 	#comment : 'Primary component used for loading the test classes.'
 }
