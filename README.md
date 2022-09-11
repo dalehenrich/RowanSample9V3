@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0008
-two symbol dicts ... gemstone in one, the rest in another
+# RowanSample9V3 - spec_0009
+one symbol dict specified for gemstone, the rest in default (unspecified)
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0008',
+	#specName : 'spec_0009',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0008',
+	#revision : 'spec_0009',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,16 +20,16 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'two symbol dicts ... gemstone in one, the rest in another'
+	#comment : 'one symbol dict specified for gemstone, the rest in default (unspecified)'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0008',
-	#title : 'two symbol dicts ... gemstone in one, the rest in another',
-	#specName : 'spec_0008',
-	#index : 8,
-	#derivedFrom : 'spec_0006',
-	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in #\'RowanSample9_1\'. RowanSample9-GemStone and RowanSample9-GemStone-Tests packages in #\'RowanSample9_2\'',
+	#name : 'index_0009',
+	#title : 'one symbol dict specified for gemstone, the rest in default (unspecified)',
+	#specName : 'spec_0009',
+	#index : 9,
+	#derivedFrom : 'spec_0008',
+	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in default. RowanSample9-GemStone and RowanSample9-GemStone-Tests packages in #\'RowanSample9_2\'',
 	#rowanIssues : [
 		493
 	],

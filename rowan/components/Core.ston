@@ -13,12 +13,6 @@ RwLoadComponent {
 		'gemstone' : {
 			'allusers' : {
 				#packageNameToPlatformPropertiesMap : {
-					'RowanSample9V3-Core' : {
-						'symbolDictName' : 'RowanSample9_3'
-					},
-					'RowanSample9V3-Extensions' : {
-						'symbolDictName' : 'RowanSample9_3'
-					},
 					'RowanSample9V3-GemStone' : {
 						'symbolDictName' : 'RowanSample9_2'
 					}
