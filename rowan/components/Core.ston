@@ -1,6 +1,8 @@
 RwLoadComponent {
 	#name : 'Core',
-	#projectNames : [ ],
+	#projectNames : [
+		'RowanSample9V3_embedded_1'
+	],
 	#componentNames : [
 		'tests/Tests'
 	],
