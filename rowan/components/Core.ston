@@ -2,6 +2,8 @@ RwLoadComponent {
 	#name : 'Core',
 	#projectNames : [ ],
 	#componentNames : [
+		'attr1/Core',
+		'attr2/Core',
 		'tests/Tests'
 	],
 	#packageNames : [
