@@ -4,6 +4,9 @@ I am an example class
 Class {
 	#name : 'RowanSample9V3IdentityKeyValueDictionary',
 	#superclass : 'IdentityKeyValueDictionary',
+	#gs_constraints : [
+		'String'
+	],
 	#category : 'RowanSample9V3-GemStone'
 }
 
