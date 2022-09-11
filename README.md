@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0009
-one symbol dict specified for gemstone, the rest in default (unspecified)
+# RowanSample9V3 - spec_0010
+one symbol dict specified for gemstone, the rest in default --- default sym dict changed from 0009
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0009',
+	#specName : 'spec_0010',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0009',
+	#revision : 'spec_0010',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -16,19 +16,19 @@ RwLoadSpecificationV2 {
 	#platformProperties : {
 		'gemstone' : {
 			'allusers' : {
-				#defaultSymbolDictName : 'RowanSample9_1'
+				#defaultSymbolDictName : 'RowanSample9_4'
 			}
 		}
 	},
-	#comment : 'one symbol dict specified for gemstone, the rest in default (unspecified)'
+	#comment : 'one symbol dict specified for gemstone, the rest in default --- default sym dict changed from 0009'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0009',
-	#title : 'one symbol dict specified for gemstone, the rest in default (unspecified)',
-	#specName : 'spec_0009',
-	#index : 9,
-	#derivedFrom : 'spec_0008',
+	#name : 'index_0010',
+	#title : 'one symbol dict specified for gemstone, the rest in default --- default sym dict changed from 0009',
+	#specName : 'spec_0010',
+	#index : 10,
+	#derivedFrom : 'spec_0009',
 	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in default. RowanSample9-GemStone and RowanSample9-GemStone-Tests packages in #\'RowanSample9_2\'',
 	#rowanIssues : [
 		493
