@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0019
+# RowanSample9V3 - spec_0020
 Conditional components test case
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0019',
+	#specName : 'spec_0020',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0019',
+	#revision : 'spec_0020',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -24,12 +24,12 @@ RwLoadSpecificationV2 {
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0019',
+	#name : 'index_0020',
 	#title : 'Conditional components test case',
-	#specName : 'spec_0019',
-	#index : 19,
-	#derivedFrom : 'spec_0017',
-	#comment : '',
+	#specName : 'spec_0020',
+	#index : 20,
+	#derivedFrom : 'spec_0019',
+	#comment : 'Start with spec_0019, and undo work done to recreate spec_0017 structure -- find and fix holes in api',
 	#rowanIssues : [
 		554
 	],
