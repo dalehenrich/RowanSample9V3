@@ -1,11 +1,12 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0003',
+	#specName : 'spec_0004',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0003',
+	#revision : 'spec_0004',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
-		'Core'
+		'Core1',
+		'Core2'
 	],
 	#customConditionalAttributes : [
 		'tests'
@@ -17,5 +18,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'RowanSample4 primer project definition'
+	#comment : 'Reconcile inconsistencies for storage of package-specific properties'
 }

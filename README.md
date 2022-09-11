@@ -1,16 +1,15 @@
-# RowanSample9V3
-Sample project that is being used to develop the **final** version of the V2.0 project handling API.
-## Summary of Load Specs
-### [spec_0000](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0000)
+# RowanSample9V3 - spec_0004
+Reconcile inconsistencies for storage of package-specific properties
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0004',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0004',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
-		'Core'
+		'Core1',
+		'Core2'
 	],
 	#customConditionalAttributes : [
 		'tests'
@@ -22,131 +21,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Reconcile inconsistencies for storage of package-specific properties'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
+	#name : 'index_0004',
+	#title : 'Reconcile inconsistencies for storage of package-specific properties',
+	#specName : 'spec_0004',
+	#index : 4,
 	#derivedFrom : 'master',
 	#comment : '',
-	#rowanIssues : [ ],
-	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
-}
-```
-### [spec_0001](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0001)
-```
-RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
-	#projectName : 'RowanSample9V3',
-	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0001',
-	#projectSpecFile : 'rowan/project.ston',
-	#componentNames : [
-		'Core'
-	],
-	#customConditionalAttributes : [
-		'tests'
-	],
-	#platformProperties : {
-		'gemstone' : {
-			'allusers' : {
-				#defaultSymbolDictName : 'RowanSample9_1'
-			}
-		}
-	},
-	#comment : 'Bare bones package structure -Core and -Tests'
-}
-
-RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
 	#rowanIssues : [
-		527
-	],
-	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
-}
-```
-### [spec_0002](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0002)
-```
-RwLoadSpecificationV2 {
-	#specName : 'spec_0002',
-	#projectName : 'RowanSample9V3',
-	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0002',
-	#projectSpecFile : 'rowan/project.ston',
-	#componentNames : [
-		'Core'
-	],
-	#customConditionalAttributes : [
-		'tests'
-	],
-	#platformProperties : {
-		'gemstone' : {
-			'allusers' : {
-				#defaultSymbolDictName : 'RowanSample9_1'
-			}
-		}
-	},
-	#comment : 'RowanSample4 basic project definition'
-}
-
-RwTestProjectLibraryIndexCard {
-	#name : 'index_0002',
-	#title : 'RowanSample4 basic project definition',
-	#specName : 'spec_0002',
-	#index : 2,
-	#derivedFrom : 'spec_0000',
-	#comment : 'RowanSampe9Class1 has extension methods',
-	#rowanIssues : [
-		254,
-		504
-	],
-	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
-}
-```
-### [spec_0003](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0003)
-```
-RwLoadSpecificationV2 {
-	#specName : 'spec_0003',
-	#projectName : 'RowanSample9V3',
-	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0003',
-	#projectSpecFile : 'rowan/project.ston',
-	#componentNames : [
-		'Core'
-	],
-	#customConditionalAttributes : [
-		'tests'
-	],
-	#platformProperties : {
-		'gemstone' : {
-			'allusers' : {
-				#defaultSymbolDictName : 'RowanSample9_1'
-			}
-		}
-	},
-	#comment : 'RowanSample4 primer project definition'
-}
-
-RwTestProjectLibraryIndexCard {
-	#name : 'index_0003',
-	#title : 'RowanSample4 primer project definition',
-	#specName : 'spec_0003',
-	#index : 3,
-	#derivedFrom : 'spec_0002',
-	#comment : 'RowanSample9Class1 has instancesInvariant option set',
-	#rowanIssues : [
-		254
+		500,
+		531
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
