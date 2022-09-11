@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'GemStone3x/Core',
+	#condition : [
+		'gs3.[2-]'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-GemStone3x-Core'
+	],
+	#comment : ''
+}
