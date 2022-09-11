@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0006
-spec_0002 with different symbol dict mappings
+# RowanSample9V3 - spec_0008
+two symbol dicts ... gemstone in one, the rest in another
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0006',
+	#specName : 'spec_0008',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0006',
+	#revision : 'spec_0008',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'spec_0002 with different symbol dict mappings'
+	#comment : 'two symbol dicts ... gemstone in one, the rest in another'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0006',
-	#title : 'spec_0002 with different symbol dict mappings',
-	#specName : 'spec_0006',
-	#index : 6,
-	#derivedFrom : 'spec_0002',
-	#comment : 'RowanSample9-Core, RowanSample9-Extensions, RowanSample9-GemStone, RowanSample9-GemStone-Tests and RowanSample9-Tests packages. Tests ensure that all of the classes are in the proper symbol dictionary',
+	#name : 'index_0008',
+	#title : 'two symbol dicts ... gemstone in one, the rest in another',
+	#specName : 'spec_0008',
+	#index : 8,
+	#derivedFrom : 'spec_0006',
+	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in #\'RowanSample9_1\'. RowanSample9-GemStone and RowanSample9-GemStone-Tests packages in #\'RowanSample9_2\'',
 	#rowanIssues : [
-		504
+		493
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'

@@ -7,5 +7,16 @@ RwSubcomponent {
 		'RowanSample9V3-GemStone-Tests',
 		'RowanSample9V3-Tests'
 	],
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'allusers' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample9V3-GemStone-Tests' : {
+						'symbolDictName' : 'RowanSample9_2'
+					}
+				}
+			}
+		}
+	},
 	#comment : 'Primary component used for loading the test classes.'
 }
