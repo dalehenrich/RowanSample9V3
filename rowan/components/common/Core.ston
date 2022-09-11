@@ -1,0 +1,12 @@
+RwSubcomponent {
+	#name : 'common/Core',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'common/alt1/Core',
+		'common/alt2/Core',
+		'common/alt3/Core'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}

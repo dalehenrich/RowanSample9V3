@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/alt3/Core',
+	#condition : 'alt3',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core-Alt3'
+	],
+	#comment : ''
+}

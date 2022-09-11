@@ -1,0 +1,12 @@
+RwSubcomponent {
+	#name : 'tests/alt1/Tests',
+	#condition : 'alt1',
+	#projectNames : [ ],
+	#componentNames : [
+		'tests/alt1/platform/Tests'
+	],
+	#packageNames : [
+		'RowanSample9V3-Tests-Alt1'
+	],
+	#comment : ''
+}

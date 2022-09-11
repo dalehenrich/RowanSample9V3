@@ -1,0 +1,13 @@
+RwSubcomponent {
+	#name : 'tests/alt1/platform/Tests',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'tests/alt1/platform/platformA/Tests',
+		'tests/alt1/platform/platformAorB/Tests',
+		'tests/alt1/platform/platformB/Tests',
+		'tests/alt1/platform/platformC/Tests'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}

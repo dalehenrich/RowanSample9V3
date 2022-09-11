@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'tests/alt1/platform/platformB/Tests',
+	#condition : [
+		'platformB'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Tests-PlatformB'
+	],
+	#comment : ''
+}
