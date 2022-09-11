@@ -1,0 +1,21 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0005',
+	#projectName : 'RowanSample9V3',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
+	#revision : 'spec_0005',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Two classes, two  packages, plus tests. Primer for Issue 230'
+}
