@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/tests/v2/Specs',
+	#condition : 'v2',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Specs-V2-Tests'
+	],
+	#comment : ''
+}

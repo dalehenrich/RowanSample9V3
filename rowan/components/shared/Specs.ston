@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'shared/Specs',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Specs-Shared'
+	],
+	#comment : 'This component is intended for sharing common code and should not be loaded independently'
+}

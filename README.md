@@ -1,17 +1,19 @@
-# RowanSample9V3 - spec_0031
-Start with  spec_0029, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.
+# RowanSample9V3 - spec_0032
+Start with  spec_0031, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0031',
+	#specName : 'spec_0032',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0031',
+	#revision : 'spec_0032',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'RowanSample9V3'
 	],
 	#customConditionalAttributes : [
-		'tests'
+		'tests',
+		'v1',
+		'v2'
 	],
 	#platformProperties : {
 		'gemstone' : {
@@ -20,18 +22,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with  spec_0029, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.'
+	#comment : 'Start with  spec_0031, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0031',
-	#title : 'Start with  spec_0029, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.',
-	#specName : 'spec_0031',
-	#index : 31,
-	#derivedFrom : 'spec_0029',
-	#comment : 'Add platform conditional extension methods and classes plus tests - pharo, gemstone and gs3.[5-]. Use platform components with alias. Use leading _ character when using alias, to distiguish from attribute (and path) using the same name.',
+	#name : 'index_0032',
+	#title : 'Start with  spec_0031, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.',
+	#specName : 'spec_0032',
+	#index : 32,
+	#derivedFrom : 'spec_0031',
+	#comment : 'Explore the use of shared directory for sharing code between two conditions, like v1 and v2 ... first create v1 and v2 packages (that can be independently loaded or loaded together in GemStone and use the class in shared component for code that is common to both -- not controlled by attributes.',
 	#rowanIssues : [
-		573
+		573,
+		571
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'

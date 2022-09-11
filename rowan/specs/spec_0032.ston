@@ -1,14 +1,16 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0031',
+	#specName : 'spec_0032',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0031',
+	#revision : 'spec_0032',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'RowanSample9V3'
 	],
 	#customConditionalAttributes : [
-		'tests'
+		'tests',
+		'v1',
+		'v2'
 	],
 	#platformProperties : {
 		'gemstone' : {
@@ -17,5 +19,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with  spec_0029, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.'
+	#comment : 'Start with  spec_0031, update the project structure using the new component creation API --- spec_0026 thru ?? represents the evolution of a project.'
 }
