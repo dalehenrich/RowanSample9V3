@@ -1,13 +1,15 @@
-# RowanSample9V3 - spec_0000
-Empty project with no packages
+# RowanSample9V3 - spec_0071
+Start with spec_0000 and create a directory structure that is offset by one directory deeper from git root. Enable me to play games with differences between git root and repository root.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0071',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#relativeRepositoryRoot : 'offset',
+	#revision : 'spec_0071',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
+		'Core',
 		'Core'
 	],
 	#customConditionalAttributes : [
@@ -20,17 +22,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Start with spec_0000 and create a directory structure that is offset by one directory deeper from git root. Enable me to play games with differences between git root and repository root.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
+	#name : 'index_0071',
+	#title : 'Start with spec_0000 and create a directory structure that is offset by one directory deeper from git root. Enable me to play games with differences between git root and repository root.',
+	#specName : 'spec_0071',
+	#index : 71,
+	#derivedFrom : 'spec_0000',
 	#comment : '',
-	#rowanIssues : [ ],
+	#rowanIssues : [
+		714
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
 }

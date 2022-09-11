@@ -1,0 +1,11 @@
+RwLoadComponent {
+	#name : 'Core',
+	#projectNames : [ ],
+	#componentNames : [
+		'tests/Tests'
+	],
+	#packageNames : [
+		'RowanSample9V3-Core'
+	],
+	#comment : ''
+}
