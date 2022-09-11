@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0000
-Empty project with no packages
+# RowanSample9V3 - spec_0002
+RowanSample4 basic project definition
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0002',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0002',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,17 +20,20 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'RowanSample4 basic project definition'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
-	#comment : '',
-	#rowanIssues : [ ],
+	#name : 'index_0002',
+	#title : 'RowanSample4 basic project definition',
+	#specName : 'spec_0002',
+	#index : 2,
+	#derivedFrom : 'spec_0000',
+	#comment : 'RowanSampe9Class1 has extension methods',
+	#rowanIssues : [
+		254,
+		504
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
 }

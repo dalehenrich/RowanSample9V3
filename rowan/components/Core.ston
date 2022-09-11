@@ -4,6 +4,10 @@ RwLoadComponent {
 	#componentNames : [
 		'tests/Tests'
 	],
-	#packageNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core',
+		'RowanSample9V3-Extensions',
+		'RowanSample9V3-GemStone'
+	],
 	#comment : 'Primary component used for loading the core classes.'
 }
