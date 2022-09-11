@@ -1,14 +1,22 @@
-# RowanSample9V3 - spec_0000
-Empty project with no packages
+# RowanSample9V3 - spec_0069
+Start with spec_0000 (RowanSample9) and add Parent, Child and Bridge top-level components with corresponding packages. The Bridge component is not expected to be loaded with the Parent component, because it has a required project conflict.
+
+The Parent package has an AbstractRowanSample9ParentClass1 class. RowanSample12:spec_0005 requires RowanSample9:spec_0069 and has a RowanSample12ConcreteClass1 class that suclasses AbstractRowanSample9ParentClass1. 
+
+The Child package has a concrete class that subclasses RowanSample10Class1, making RowanSample10:spec0001 a required project. 
+
+The Bridge package has an AbstractRowanSample9BridgeClass1 class that is a subclass of AbstractRowanSample11ParentClass1 from RowanSample11:spec_0005. The class AbstractRowanSample9BridgeClass1 has subclass RowanSample12ConcreteClass1 from the project RowanSample12:spec_0006 that requires RowanSample9:spec_0069. AbstractRowanSample9BridgeClass1 has a method #foo that is implemented with subclassResponsibility and #foo is defined in RowanSample12ConcreteClass1.
+
+Each of the components in RowanSample9:spec_0069 has a corresponding test case that confirms the class structure.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0069',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0069',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
-		'Core'
+		'Parent'
 	],
 	#customConditionalAttributes : [
 		'tests'
@@ -20,17 +28,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Start with spec_0000 (RowanSample9) and add Parent, Child and Bridge top-level components with corresponding packages. The Bridge component is not expected to be loaded with the Parent component, because it has a required project conflict.\n\nThe Parent package has an AbstractRowanSample9ParentClass1 class. RowanSample12:spec_0005 requires RowanSample9:spec_0069 and has a RowanSample12ConcreteClass1 class that suclasses AbstractRowanSample9ParentClass1. \n\nThe Child package has a concrete class that subclasses RowanSample10Class1, making RowanSample10:spec0001 a required project. \n\nThe Bridge package has an AbstractRowanSample9BridgeClass1 class that is a subclass of AbstractRowanSample11ParentClass1 from RowanSample11:spec_0005. The class AbstractRowanSample9BridgeClass1 has subclass RowanSample12ConcreteClass1 from the project RowanSample12:spec_0006 that requires RowanSample9:spec_0069. AbstractRowanSample9BridgeClass1 has a method #foo that is implemented with subclassResponsibility and #foo is defined in RowanSample12ConcreteClass1.\n\nEach of the components in RowanSample9:spec_0069 has a corresponding test case that confirms the class structure.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
+	#name : 'index_0069',
+	#title : 'Start with spec_0000 (RowanSample9) and add Parent, Child and Bridge top-level components with corresponding packages. The Bridge component is not expected to be loaded with the Parent component, because it has a required project conflict.\n\nThe Parent package has an AbstractRowanSample9ParentClass1 class. RowanSample12:spec_0005 requires RowanSample9:spec_0069 and has a RowanSample12ConcreteClass1 class that suclasses AbstractRowanSample9ParentClass1. \n\nThe Child package has a concrete class that subclasses RowanSample10Class1, making RowanSample10:spec0001 a required project. \n\nThe Bridge package has an AbstractRowanSample9BridgeClass1 class that is a subclass of AbstractRowanSample11ParentClass1 from RowanSample11:spec_0005. The class AbstractRowanSample9BridgeClass1 has subclass RowanSample12ConcreteClass1 from the project RowanSample12:spec_0006 that requires RowanSample9:spec_0069. AbstractRowanSample9BridgeClass1 has a method #foo that is implemented with subclassResponsibility and #foo is defined in RowanSample12ConcreteClass1.\n\nEach of the components in RowanSample9:spec_0069 has a corresponding test case that confirms the class structure.',
+	#specName : 'spec_0069',
+	#index : 69,
+	#derivedFrom : 'spec_0000',
 	#comment : '',
-	#rowanIssues : [ ],
+	#rowanIssues : [
+		705
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
 }
