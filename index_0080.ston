@@ -1,0 +1,13 @@
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0080',
+	#title : 'Start with spec_0002; read and write in Pharo tonel format v1.0 (keys and values are Symbols).',
+	#specName : 'spec_0080',
+	#index : 80,
+	#derivedFrom : 'spec_0002',
+	#comment : '',
+	#rowanIssues : [
+		777
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : '67c0952bc'
+}

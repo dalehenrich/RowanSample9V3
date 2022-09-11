@@ -1,1 +1,1 @@
-Package { #name : 'RowanSample9V3-Tests' }
+Package { #name : #RowanSample9V3-Tests }
