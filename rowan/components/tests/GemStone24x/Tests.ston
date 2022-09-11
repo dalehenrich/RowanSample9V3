@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'tests/GemStone24x/Tests',
+	#condition : [
+		'gs2.[4-]'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-GemStone24x-Tests'
+	],
+	#comment : ''
+}
