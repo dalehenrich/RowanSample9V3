@@ -16,6 +16,9 @@ RwLoadComponent {
 					'RowanSample9V3-Core' : {
 						'symbolDictName' : 'RowanSample9_1'
 					},
+					'RowanSample9V3-Extensions' : {
+						'symbolDictName' : 'RowanSample9_2'
+					},
 					'RowanSample9V3-Extensions1' : {
 						'symbolDictName' : 'RowanSample9_1'
 					}
