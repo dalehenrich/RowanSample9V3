@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0002
-RowanSample4 basic project definition
+# RowanSample9V3 - spec_0079
+Start with spec_0002; and write in filetree format instead of tonel format.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0002',
+	#specName : 'spec_0079',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0002',
+	#revision : 'spec_0079',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,19 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'RowanSample4 basic project definition'
+	#comment : 'Start with spec_0002; and write in filetree format instead of tonel format.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0002',
-	#title : 'RowanSample4 basic project definition',
-	#specName : 'spec_0002',
-	#index : 2,
-	#derivedFrom : 'spec_0000',
-	#comment : 'RowanSampe9Class1 has extension methods',
+	#name : 'index_0079',
+	#title : 'Start with spec_0002; and write in filetree format instead of tonel format.',
+	#specName : 'spec_0079',
+	#index : 79,
+	#derivedFrom : 'spec_0002',
+	#comment : '',
 	#rowanIssues : [
-		254,
-		504
+		761
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'

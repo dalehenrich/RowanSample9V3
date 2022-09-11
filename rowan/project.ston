@@ -6,7 +6,7 @@ RwProjectSpecificationV3 {
 	#packagesPath : 'src',
 	#projectsPath : 'rowan/projects',
 	#specsPath : 'rowan/specs',
-	#packageFormat : 'tonel',
+	#packageFormat : 'filetree',
 	#packageConvention : 'RowanHybrid',
 	#comment : ''
 }
