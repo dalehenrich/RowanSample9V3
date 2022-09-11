@@ -6,7 +6,22 @@ RwLoadComponent {
 	],
 	#packageNames : [
 		'RowanSample9V3-Core',
-		'RowanSample9V3-Extensions'
+		'RowanSample9V3-Extensions',
+		'RowanSample9V3-Extensions1'
 	],
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'allusers' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample9V3-Core' : {
+						'symbolDictName' : 'RowanSample9_1'
+					},
+					'RowanSample9V3-Extensions1' : {
+						'symbolDictName' : 'RowanSample9_1'
+					}
+				}
+			}
+		}
+	},
 	#comment : 'Primary component used for loading the core classes.'
 }

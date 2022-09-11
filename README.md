@@ -1,11 +1,14 @@
-# RowanSample9V3 - spec_0011
-A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.
+# RowanSample9V3 - spec_0014
+Starting with spec_0011, move extension method to a new extension package; move new extension package 
+		to the classes symbol dictionary. This is a legal combination (extension method and class in same symbol
+		dictionary) the V2 classes are handling the symbol dictionary lookup properly, so this combo validates that
+		the bug (#493) is fixed.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0011',
+	#specName : 'spec_0014',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0011',
+	#revision : 'spec_0014',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +23,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.'
+	#comment : 'Starting with spec_0011, move extension method to a new extension package; move new extension package \n\t\tto the classes symbol dictionary. This is a legal combination (extension method and class in same symbol\n\t\tdictionary) the V2 classes are handling the symbol dictionary lookup properly, so this combo validates that\n\t\tthe bug (#493) is fixed.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0011',
-	#title : 'A single class with an extension method in a separate package. All packages loaded into a single symbol dict. Test methods validate classes and symbol dictionary mapping.',
-	#specName : 'spec_0011',
-	#index : 11,
-	#derivedFrom : 'spec_0001',
-	#comment : 'RowanSample9-Core, RowanSample9-Extensions, and RowanSample9-Tests packages in default symbol dictionary.',
+	#name : 'index_0014',
+	#title : 'Starting with spec_0011, move extension method to a new extension package; move new extension package \n\t\tto the classes symbol dictionary. This is a legal combination (extension method and class in same symbol\n\t\tdictionary) the V2 classes are handling the symbol dictionary lookup properly, so this combo validates that\n\t\tthe bug (#493) is fixed.',
+	#specName : 'spec_0014',
+	#index : 14,
+	#derivedFrom : 'spec_0011',
+	#comment : 'RowanSample9-Core and RowanSample9-Extensions1 in same symbol dictionary, but extension method moves\n\t\tto new package. RowanSample9-Tests package in default symbol dictionary.',
 	#rowanIssues : [
-		495
+		493
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
