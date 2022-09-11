@@ -1,17 +1,18 @@
-# RowanSample9V3 - spec_0060
-Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052
+# RowanSample9V3 - spec_0065
+Start with spec_0060; replace external project RowanSample10 spec_0001 with spec_0002
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0060',
+	#specName : 'spec_0065',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0060',
+	#revision : 'spec_0065',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
 	],
 	#customConditionalAttributes : [
-		'tests'
+		'tests',
+		'mytests'
 	],
 	#platformProperties : {
 		'gemstone' : {
@@ -20,18 +21,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052'
+	#comment : 'Start with spec_0060; replace external project RowanSample10 spec_0001 with spec_0002'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0060',
-	#title : 'Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052',
-	#specName : 'spec_0060',
-	#index : 60,
-	#derivedFrom : 'spec_0001',
+	#name : 'index_0065',
+	#title : 'Start with spec_0060; replace external project RowanSample10 spec_0001 with spec_0002',
+	#specName : 'spec_0065',
+	#index : 65,
+	#derivedFrom : 'spec_0060',
 	#comment : '',
 	#rowanIssues : [
-		668
+		700
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
