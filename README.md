@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0035
-Start with spec_0034, add class hierarchy with instance variables and methods. _migration_1.
+# RowanSample9V3 - spec_0036
+Start with spec_0035, move ivs ivar1 and ivar2 up to the top of the hierarcy; methods should be okay. _migration_2.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0035',
+	#specName : 'spec_0036',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0035',
+	#revision : 'spec_0036',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -18,15 +18,15 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0034, add class hierarchy with instance variables and methods. _migration_1.'
+	#comment : 'Start with spec_0035, move ivs ivar1 and ivar2 up to the top of the hierarcy; methods should be okay. _migration_2.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0035',
-	#title : 'Start with spec_0034, add class hierarchy with instance variables and methods. _migration_1.',
-	#specName : 'spec_0035',
-	#index : 35,
-	#derivedFrom : 'spec_0034',
+	#name : 'index_0036',
+	#title : 'Start with spec_0035, move ivs ivar1 and ivar2 up to the top of the hierarcy; methods should be okay. _migration_2.',
+	#specName : 'spec_0036',
+	#index : 36,
+	#derivedFrom : 'spec_0035',
 	#comment : '',
 	#rowanIssues : [ ],
 	#gemstoneIssues : [ ],

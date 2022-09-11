@@ -2,8 +2,7 @@ Class {
 	#name : 'RowanSample9ClassF',
 	#superclass : 'RowanSample9ClassB',
 	#instVars : [
-		'f',
-		'ivar2'
+		'f'
 	],
 	#category : 'RowanSample9V3-Core'
 }
@@ -14,12 +13,4 @@ RowanSample9ClassF >> f [ ^ f
 
 { #category : 'accessing' }
 RowanSample9ClassF >> f: obj [ f := obj
-]
-
-{ #category : 'accessing' }
-RowanSample9ClassF >> ivar2 [ ^ ivar2
-]
-
-{ #category : 'accessing' }
-RowanSample9ClassF >> ivar2: obj [ ivar2 := obj
 ]
