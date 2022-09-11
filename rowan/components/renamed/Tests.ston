@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'renamed/Tests',
+	#condition : 'renamed',
+	#projectNames : [ ],
+	#componentNames : [
+		'renamed/tests/Tests'
+	],
+	#packageNames : [ ],
+	#comment : ''
+}

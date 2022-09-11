@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'renamed/Rename',
+	#condition : 'renamed',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-RenamedPackage'
+	],
+	#comment : ''
+}

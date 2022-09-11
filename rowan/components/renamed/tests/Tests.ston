@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'renamed/tests/Tests',
+	#condition : 'tests',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Tests-RenamedPackage'
+	],
+	#comment : ''
+}
