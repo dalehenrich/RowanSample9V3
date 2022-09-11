@@ -1,10 +1,10 @@
 RwSubcomponent {
-	#name : 'common/tests/RowanSample9V3',
-	#condition : 'tests',
+	#name : 'common/Definitions',
+	#condition : 'common',
 	#projectNames : [ ],
 	#componentNames : [ ],
 	#packageNames : [
-		'RowanSample9V3-Tests'
+		'RowanSample9V3-Definitions'
 	],
 	#comment : ''
 }

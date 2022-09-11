@@ -2,10 +2,12 @@ RwLoadComponent {
 	#name : 'RowanSample9V3',
 	#projectNames : [ ],
 	#componentNames : [
-		'common/RowanSample9V3'
+		'common/Core',
+		'common/Definitions',
+		'common/RowanSample9V3',
+		'common/Specs',
+		'common/Tests'
 	],
-	#packageNames : [
-		'RowanSample9V3-Core'
-	],
+	#packageNames : [ ],
 	#comment : ''
 }

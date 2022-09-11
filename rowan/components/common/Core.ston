@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'common/Core',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core'
+	],
+	#comment : ''
+}
