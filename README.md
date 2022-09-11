@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0017
-Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions
+# RowanSample9V3 - spec_0019
+Conditional components test case
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0017',
+	#specName : 'spec_0019',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0017',
+	#revision : 'spec_0019',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions'
+	#comment : 'Conditional components test case'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0017',
-	#title : 'Starting with spec_0015, change symbol dictionary of RowanSample9-Extensions to match symbol dictionary of RowanSample9-Extensions',
-	#specName : 'spec_0017',
-	#index : 17,
-	#derivedFrom : 'spec_0015',
+	#name : 'index_0019',
+	#title : 'Conditional components test case',
+	#specName : 'spec_0019',
+	#index : 19,
+	#derivedFrom : 'spec_0017',
 	#comment : '',
 	#rowanIssues : [
-		557
+		554
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'

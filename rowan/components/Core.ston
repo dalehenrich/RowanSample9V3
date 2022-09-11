@@ -2,24 +2,18 @@ RwLoadComponent {
 	#name : 'Core',
 	#projectNames : [ ],
 	#componentNames : [
+		'subs/Core1',
+		'subs/Core2',
 		'tests/Tests'
 	],
 	#packageNames : [
-		'RowanSample9V3-Core',
-		'RowanSample9V3-Extensions',
-		'RowanSample9V3-Extensions1'
+		'RowanSample9V3-Core'
 	],
 	#conditionalPackageMapSpecs : {
 		'gemstone' : {
 			'allusers' : {
 				#packageNameToPlatformPropertiesMap : {
 					'RowanSample9V3-Core' : {
-						'symbolDictName' : 'RowanSample9_1'
-					},
-					'RowanSample9V3-Extensions' : {
-						'symbolDictName' : 'RowanSample9_1'
-					},
-					'RowanSample9V3-Extensions1' : {
 						'symbolDictName' : 'RowanSample9_1'
 					}
 				}
