@@ -1,5 +1,5 @@
 RwPlatformSubcomponent {
-	#name : 'common/platforms/pharo/Loader',
+	#name : 'Loader_pharo',
 	#condition : [
 		'pharo'
 	],

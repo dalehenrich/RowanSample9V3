@@ -2,17 +2,22 @@ RwLoadComponent {
 	#name : 'Core',
 	#projectNames : [ ],
 	#componentNames : [
-		'common/Core',
-		'common/Examples',
-		'common/Loader',
-		'common/Tests',
-		'groups/Examples',
-		'groups/Loader',
-		'groups/Projects',
-		'groups/Rowan',
-		'groups/Tests',
-		'groups/WorkGroup_dkh'
+		'Examples_examples',
+		'Examples_group',
+		'Loader_common',
+		'Loader_gemstone',
+		'Loader_group',
+		'Loader_pharo',
+		'Projects_group',
+		'Rowan_group',
+		'Tests_group',
+		'Tests_tests',
+		'WorkGroup_dkh_group'
 	],
-	#packageNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core',
+		'RowanSample9V3-Core-Projects',
+		'RowanSample9V3-Core-Rowan'
+	],
 	#comment : 'Primary component used for loading the project.'
 }

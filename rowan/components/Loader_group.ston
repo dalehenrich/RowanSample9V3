@@ -1,0 +1,9 @@
+RwPackageGroup {
+	#name : 'Loader_group',
+	#condition : 'common',
+	#componentNames : [
+		'Loader_common'
+	],
+	#packageNames : [ ],
+	#comment : 'package group for Loader'
+}

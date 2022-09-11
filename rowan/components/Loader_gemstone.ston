@@ -1,5 +1,5 @@
 RwPlatformSubcomponent {
-	#name : 'common/platforms/gemstone/Loader',
+	#name : 'Loader_gemstone',
 	#condition : [
 		'gemstone'
 	],
