@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0060
-Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052
+# RowanSample9V3 - spec_0064
+Start with spec_0060; WITHOUT RowanSample10 as an external project ... and add some packages that duplicate RowanSample10 package names and content ... in concert with a reload of spec_0060 reproduce https://github.com/GemTalk/Rowan/issues/680
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0060',
+	#specName : 'spec_0064',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0060',
+	#revision : 'spec_0064',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -16,22 +16,22 @@ RwLoadSpecificationV2 {
 	#platformProperties : {
 		'gemstone' : {
 			'allusers' : {
-				#defaultSymbolDictName : 'RowanSample9_1'
+				#defaultSymbolDictName : 'RowanSample9_2'
 			}
 		}
 	},
-	#comment : 'Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052'
+	#comment : 'Start with spec_0060; WITHOUT RowanSample10 as an external project ... and add some packages that duplicate RowanSample10 package names and content ... in concert with a reload of spec_0060 reproduce https://github.com/GemTalk/Rowan/issues/680'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0060',
-	#title : 'Start with spec_0001; add RowanSample10 as an external project ... based on genSpec_0052',
-	#specName : 'spec_0060',
-	#index : 60,
-	#derivedFrom : 'spec_0001',
+	#name : 'index_0064',
+	#title : 'Start with spec_0060; WITHOUT RowanSample10 as an external project ... and add some packages that duplicate RowanSample10 package names and content ... in concert with a reload of spec_0060 reproduce https://github.com/GemTalk/Rowan/issues/680',
+	#specName : 'spec_0064',
+	#index : 64,
+	#derivedFrom : 'spec_0060',
 	#comment : '',
 	#rowanIssues : [
-		668
+		680
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
