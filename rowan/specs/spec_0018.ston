@@ -1,0 +1,11 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0018',
+	#projectName : 'RowanSample9V3',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
+	#revision : 'spec_0018',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#comment : 'Build a sample vast/gemstone project based on information in https://github.com/dalehenrich/tonel-demos/tree/rowan_553'
+}
