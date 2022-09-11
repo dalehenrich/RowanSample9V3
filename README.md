@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0021
-Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.
+# RowanSample9V3 - spec_0022
+Start with spec_0021, add pre and post load doits adjust tests to validate that pre load doits had been executed (part 2)
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0021',
+	#specName : 'spec_0022',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0021',
+	#revision : 'spec_0022',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,15 +20,15 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.'
+	#comment : 'Start with spec_0021, add pre and post load doits adjust tests to validate that pre load doits had been executed (part 2)'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0021',
-	#title : 'Start with spec_0011, add pre and post load doits plus tests to validate that post load doits had been executed (part 1). Preload doit validation will be in part 2.',
-	#specName : 'spec_0021',
-	#index : 21,
-	#derivedFrom : 'spec_0011',
+	#name : 'index_0022',
+	#title : 'Start with spec_0021, add pre and post load doits adjust tests to validate that pre load doits had been executed (part 2)',
+	#specName : 'spec_0022',
+	#index : 22,
+	#derivedFrom : 'spec_0021',
 	#comment : '',
 	#rowanIssues : [
 		568
