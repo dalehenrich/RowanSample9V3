@@ -1,0 +1,13 @@
+RwPlatformSubcomponent {
+	#name : 'common/_gemstone_glass/Definitions',
+	#condition : [
+		'gemstone',
+		'glass'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Definitions-GemStone'
+	],
+	#comment : ''
+}

@@ -1,0 +1,12 @@
+RwPlatformSubcomponent {
+	#name : 'common/_pharo/Definitions',
+	#condition : [
+		'pharo'
+	],
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Definitions-Pharo'
+	],
+	#comment : ''
+}
