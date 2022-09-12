@@ -2412,18 +2412,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0067 (RowanSample9) and spec_0004 (RowanSample10, RowanSample11, RowanSample12); recursive required project chain; RowanSample9 requires RowanSample10; RowanSample10 requires RowanSample11; RowanSample11 requires RowanSample12; RowanSamplle12 requires RowanSample9; class hierarchy runs RowanSample9Class2->RowanSample12Class1>RowanSample11Class1>RowanSample10Class1>RowanSample9Class1'
+	#comment : 'Start with spec_0067 (RowanSample9V3) and spec_0004 (RowanSample10V3, RowanSample11, RowanSample12); recursive required project chain; RowanSample9V3 requires RowanSample10V3; RowanSample10V3 requires RowanSample11; RowanSample11 requires RowanSample12; RowanSamplle12 requires RowanSample9V3; class hierarchy runs RowanSample9V3Class2->RowanSample12Class1>RowanSample11Class1>RowanSample10V3Class1>RowanSample9V3Class1'
 }
 
 RwTestProjectLibraryIndexCard {
 	#name : 'index_0068',
-	#title : 'Start with spec_0067 (RowanSample9) and spec_0004 (RowanSample10, RowanSample11, RowanSample12); recursive required project chain; RowanSample9 requires RowanSample10; RowanSample10 requires RowanSample11; RowanSample11 requires RowanSample12; RowanSamplle12 requires RowanSample9; class hierarchy runs RowanSample9Class2->RowanSample12Class1>RowanSample11Class1>RowanSample10Class1>RowanSample9Class1',
+	#title : 'Start with spec_0067 (RowanSample9V3) and spec_0004 (RowanSample10V3, RowanSample11, RowanSample12); recursive required project chain; RowanSample9V3 requires RowanSample10V3; RowanSample10V3 requires RowanSample11; RowanSample11 requires RowanSample12; RowanSamplle12 requires RowanSample9V3; class hierarchy runs RowanSample9V3Class2->RowanSample12Class1>RowanSample11Class1>RowanSample10V3Class1>RowanSample9V3Class1',
 	#specName : 'spec_0068',
 	#index : 67,
 	#derivedFrom : 'spec_0067',
 	#comment : '',
 	#rowanIssues : [
-		701
+		701,
+		861
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
