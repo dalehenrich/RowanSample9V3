@@ -2384,7 +2384,8 @@ RwTestProjectLibraryIndexCard {
 	#derivedFrom : 'spec_0001',
 	#comment : '',
 	#rowanIssues : [
-		701
+		701,
+		861
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '67c0952bc'
