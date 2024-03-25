@@ -1,0 +1,13 @@
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0083',
+	#title : 'Start with spec_0002; and write in filetree format instead of tonel format.',
+	#specName : 'spec_0083',
+	#index : 83,
+	#derivedFrom : 'spec_0002',
+	#comment : '',
+	#rowanIssues : [
+		761
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : 'b2bc65711'
+}
