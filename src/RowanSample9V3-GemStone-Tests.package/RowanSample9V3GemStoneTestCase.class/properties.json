@@ -1,14 +1,11 @@
 {
-	"category" : "RowanSample9V3-GemStone-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "RowanSample9V3GemStoneTestCase",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "RowanSample9V3-GemStone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RowanSample9V3GemStoneTestCase",
+	"type" : "normal"
+}
