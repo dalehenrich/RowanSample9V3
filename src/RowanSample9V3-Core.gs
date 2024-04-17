@@ -4,7 +4,7 @@ SET PACKAGE: RowanSample9V3-Core
 doit
 (Object
 	byteSubclass: 'RowanSample9V3ByteClass1'
-	classVars: #(  )
+	classVars: #()
 	poolDictionaries: #()
 	inDictionary: RowanSample9_1
 	options: #()
@@ -20,9 +20,9 @@ removeallclassmethods RowanSample9V3ByteClass1
 doit
 (Object
 	subclass: 'RowanSample9V3Class1'
-	instVarNames: #(  )
-	classVars: #(  )
-	classInstVars: #(  )
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
 	poolDictionaries: #()
 	inDictionary: RowanSample9_1
 	options: #()
@@ -38,9 +38,9 @@ removeallclassmethods RowanSample9V3Class1
 doit
 (Object
 	indexableSubclass: 'RowanSample9V3IndexableClass1'
-	instVarNames: #(  )
-	classVars: #(  )
-	classInstVars: #(  )
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
 	poolDictionaries: #()
 	inDictionary: RowanSample9_1
 	options: #()

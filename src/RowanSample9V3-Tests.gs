@@ -4,9 +4,9 @@ SET PACKAGE: RowanSample9V3-Tests
 doit
 (TestCase
 	subclass: 'RowanSample9V3TestCase'
-	instVarNames: #(  )
-	classVars: #(  )
-	classInstVars: #(  )
+	instVarNames: #()
+	classVars: #()
+	classInstVars: #()
 	poolDictionaries: #()
 	inDictionary: RowanSample9_1
 	options: #()
