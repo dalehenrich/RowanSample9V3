@@ -1,0 +1,13 @@
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0084',
+	#title : 'Start with spec_0001; add and use Traits',
+	#specName : 'spec_0084',
+	#index : 84,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
+	#rowanIssues : [
+		783
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : '4266ca195'
+}
