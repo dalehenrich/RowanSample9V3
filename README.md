@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0001
-Bare bones package structure -Core and -Tests
+# RowanSample9V3 - spec_0084
+Start with spec_0001; add and use Traits
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0084',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0084',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +20,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Bare bones package structure -Core and -Tests'
+	#comment : 'Start with spec_0001; add and use Traits'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#name : 'index_0084',
+	#title : 'Start with spec_0001; add and use Traits',
+	#specName : 'spec_0084',
+	#index : 84,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
 	#rowanIssues : [
-		527
+		783
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
+	#rowanSHA : '4266ca195'
 }
 ```
 
