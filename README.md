@@ -1,5 +1,5 @@
 # RowanSample9V3 - spec_0084
-Start with spec_0001; add and use Traits
+Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0084',
@@ -20,12 +20,12 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0001; add and use Traits'
+	#comment : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods'
 }
 
 RwTestProjectLibraryIndexCard {
 	#name : 'index_0084',
-	#title : 'Start with spec_0001; add and use Traits',
+	#title : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods',
 	#specName : 'spec_0084',
 	#index : 84,
 	#derivedFrom : 'spec_0001',

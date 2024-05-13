@@ -17,5 +17,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0001; add and use Traits'
+	#comment : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods'
 }
