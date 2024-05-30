@@ -1,5 +1,10 @@
 # RowanSample9V3 - spec_0085
-Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate Core* packages. Traits are in separate Trait* packages. Tests  are in separate Test* packages. Each Core* package is in a Core* conditional (C*) component. Each Trait* package is in a Trait* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.
+Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate C* packages. Traits are in separate Tr* packages. Tests  are in separate T* packages. Each C* package is in a C* conditional (C*) component. Each Tr* package is in a Tr* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.
+
+List of condition tuples intended to work together, since they were built together:
+	C01, Tr01, T01
+
+Interesting things could happen when different conditions are mixed together, but transitions between built tuples should always work.
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0085',
@@ -22,12 +27,12 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate Core* packages. Traits are in separate Trait* packages. Tests  are in separate Test* packages. Each Core* package is in a Core* conditional (C*) component. Each Trait* package is in a Trait* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.'
+	#comment : 'Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate C* packages. Traits are in separate Tr* packages. Tests  are in separate T* packages. Each C* package is in a C* conditional (C*) component. Each Tr* package is in a Tr* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.\n\nList of condition tuples intended to work together, since they were built together:\n\tC01, Tr01, T01\n\nInteresting things could happen when different conditions are mixed together, but transitions between built tuples should always work.'
 }
 
 RwTestProjectLibraryIndexCard {
 	#name : 'index_0085',
-	#title : 'Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate Core* packages. Traits are in separate Trait* packages. Tests  are in separate Test* packages. Each Core* package is in a Core* conditional (C*) component. Each Trait* package is in a Trait* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.',
+	#title : 'Start from scratch and build a package/component structure for testing different Class/Trait combinations. Classes are in separate C* packages. Traits are in separate Tr* packages. Tests  are in separate T* packages. Each C* package is in a C* conditional (C*) component. Each Tr* package is in a Tr* conditional (Tr*) component. Each Test* package is in a Test* conditional (C*-T*) component. There is a Test package for Core/Trait combo. The idea is that we can test a significant number of Class/Trait combinations in a single project using conditions to control what is loaded.\n\nList of condition tuples intended to work together, since they were built together:\n\tC01, Tr01, T01\n\nInteresting things could happen when different conditions are mixed together, but transitions between built tuples should always work.',
 	#specName : 'spec_0085',
 	#index : 85,
 	#derivedFrom : 'master',
