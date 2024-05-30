@@ -1,0 +1,11 @@
+RwLoadComponent {
+	#name : 'Core',
+	#projectNames : [ ],
+	#componentNames : [
+		'C01',
+		'T01',
+		'Tr01'
+	],
+	#packageNames : [ ],
+	#comment : 'Single top-level component, that lists all of conditional components that can be loaded. The packages that are actually loaded, will be dictated by the conditional attributes'
+}
