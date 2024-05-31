@@ -17,11 +17,11 @@ RowanSample9V3TestCase >> testCv2_t [  self assert: RowanSample9V3Class1 new cv2
 ]
 
 { #category : 'tests' }
-RowanSample9V3TestCase >> testIv1_2 [  self assert: RowanSample9V3Class1 new iv2_t = nil
+RowanSample9V3TestCase >> testIv1_t [  self assert: RowanSample9V3Class1 new iv1_t = nil
 ]
 
 { #category : 'tests' }
-RowanSample9V3TestCase >> testIv1_t [  self assert: RowanSample9V3Class1 new iv1_t = nil
+RowanSample9V3TestCase >> testIv2_t [  self assert: RowanSample9V3Class1 new iv2_t = nil
 ]
 
 { #category : 'tests' }
