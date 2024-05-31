@@ -6,5 +6,5 @@ RwSubcomponent {
 	#packageNames : [
 		'RowanSample9V3-C-T01'
 	],
-	#comment : 'Class Test package'
+	#comment : 'Class Test 01 package'
 }
