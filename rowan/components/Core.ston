@@ -10,7 +10,8 @@ RwLoadComponent {
 		'T03',
 		'Tr01',
 		'Tr02',
-		'Tr03'
+		'Tr03',
+		'Tr04'
 	],
 	#packageNames : [ ],
 	#comment : 'Single top-level component, that lists all of conditional components that can be loaded. The packages that are actually loaded, will be dictated by the conditional attributes'

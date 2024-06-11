@@ -1,0 +1,21 @@
+RwSubcomponent {
+	#name : 'Tr04',
+	#condition : 'Tr04',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Tr03'
+	],
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'allusers' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample9V3-Tr03' : {
+						'symbolDictName' : 'RowanSample9_2'
+					}
+				}
+			}
+		}
+	},
+	#comment : 'Trait 04 package'
+}
