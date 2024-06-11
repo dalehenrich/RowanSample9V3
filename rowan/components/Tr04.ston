@@ -4,13 +4,13 @@ RwSubcomponent {
 	#projectNames : [ ],
 	#componentNames : [ ],
 	#packageNames : [
-		'RowanSample9V3-Tr03'
+		'RowanSample9V3-Tr04'
 	],
 	#conditionalPackageMapSpecs : {
 		'gemstone' : {
 			'allusers' : {
 				#packageNameToPlatformPropertiesMap : {
-					'RowanSample9V3-Tr03' : {
+					'RowanSample9V3-Tr04' : {
 						'symbolDictName' : 'RowanSample9_2'
 					}
 				}
