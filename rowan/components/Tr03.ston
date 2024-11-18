@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'Tr03',
+	#condition : 'Tr03',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Tr03'
+	],
+	#comment : 'Trait 03 package'
+}

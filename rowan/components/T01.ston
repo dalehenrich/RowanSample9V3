@@ -1,0 +1,13 @@
+RwSubcomponent {
+	#name : 'T01',
+	#condition : 'T01',
+	#projectNames : [ ],
+	#componentNames : [
+		'T01_class',
+		'T01_trait'
+	],
+	#packageNames : [
+		'RowanSample9V3-T01'
+	],
+	#comment : 'Test 01 package'
+}
