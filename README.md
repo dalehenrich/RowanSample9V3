@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0001
-Bare bones package structure -Core and -Tests
+# RowanSample9V3 - spec_0086
+Start with spec_0001 (RowanSample9V3) and add a Trait definition -- ensure compatibility with Pharo (category and package name written to disk).
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0086',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0086',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +20,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Bare bones package structure -Core and -Tests'
+	#comment : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition -- ensure compatibility with Pharo (category and package name written to disk).'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#name : 'index_0086',
+	#title : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition -- ensure compatibility with Pharo (category and package name written to disk).',
+	#specName : 'spec_0086',
+	#index : 86,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
 	#rowanIssues : [
-		527
+		938
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
+	#rowanSHA : 'f25991381'
 }
 ```
 
