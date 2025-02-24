@@ -1,11 +1,11 @@
-# RowanSample9V3 - spec_0001
-Bare bones package structure -Core and -Tests
+# RowanSample9V3 - spec_0089
+Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0089',
 	#projectName : 'RowanSample9V3',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V3.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0089',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +20,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Bare bones package structure -Core and -Tests'
+	#comment : 'Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#name : 'index_0089',
+	#title : 'Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.',
+	#specName : 'spec_0089',
+	#index : 89,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
 	#rowanIssues : [
-		527
+		953
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '67c0952bc'
+	#rowanSHA : 'c6254d045'
 }
 ```
 

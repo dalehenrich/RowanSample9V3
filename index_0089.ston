@@ -1,0 +1,13 @@
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0089',
+	#title : 'Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.',
+	#specName : 'spec_0089',
+	#index : 89,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
+	#rowanIssues : [
+		953
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : 'c6254d045'
+}
