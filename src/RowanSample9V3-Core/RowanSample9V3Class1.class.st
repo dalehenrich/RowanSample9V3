@@ -12,28 +12,28 @@ Class {
 
 { #category : 'accessing' }
 RowanSample9V3Class1 class >> _123abc [      
-	^self
+	^true
 ]
 
 { #category : 'accessing' }
-RowanSample9V3Class1 class >> _abc123 [ ^self
+RowanSample9V3Class1 class >> _abc123 [ ^true
 ]
 
 { #category : 'accessing' }
-RowanSample9V3Class1 class >> _ABC123 [ ^self
+RowanSample9V3Class1 class >> _ABC123 [ ^true
 ]
 
 { #category : 'accessing' }
-RowanSample9V3Class1 class >> a_bc123 [ ^self
+RowanSample9V3Class1 class >> a_bc123 [ ^true
 ]
 
 { #category : 'accessing' }
 RowanSample9V3Class1 >> _123Abc [ 
-	^self
+	^true
 ]
 
 { #category : 'accessing' }
-RowanSample9V3Class1 >> A_bc123 [      ^self
+RowanSample9V3Class1 >> A_bc123 [      ^true
 ]
 
 { #category : 'accessing' }
