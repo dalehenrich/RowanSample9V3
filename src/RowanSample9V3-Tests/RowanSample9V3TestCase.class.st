@@ -20,7 +20,7 @@ RowanSample9V3TestCase >> test4 [  self assert: RowanSample9V3Class1 new _123Abc
 ]
 
 { #category : 'tests' }
-RowanSample9V3TestCase >> test5 [  self assert: RowanSample9V3Class1 new _123abc
+RowanSample9V3TestCase >> test5 [  self assert: RowanSample9V3Class1 _123abc
 ]
 
 { #category : 'tests' }
