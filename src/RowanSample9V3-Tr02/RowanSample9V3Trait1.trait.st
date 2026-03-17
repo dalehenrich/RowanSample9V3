@@ -12,8 +12,7 @@ Trait {
 		'Cv1',
 		'Cv2'
 	],
-	#category : 'RowanSample9V3-Tr02',
-	#package : 'RowanSample9V3-Tr02'
+	#category : 'RowanSample9V3-Tr02'
 }
 
 { #category : 'accessing' }
